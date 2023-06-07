@@ -1,0 +1,17 @@
+input{
+    margin: 15px;
+    border: solid 1px red;
+    border-radius: 5px;
+}
+
+#inputArea:focus{
+    background-color: rgba(255, 0, 0, 0.692);
+    border: 1px solid rgb(142,24,27);
+    transition: 1s;
+}
+
+#button:focus {
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
